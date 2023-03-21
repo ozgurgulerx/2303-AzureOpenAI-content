@@ -2,8 +2,6 @@ import requests
 import json
 import os 
 
-# Replace with your API key and endpoint
-#subscription_key = 'fc24064d3f5746c28e7dbb49a19a2567'
 
 subscription_key = os.environ['OPENAI_API_KEY']
 endpoint = 'https://azure-ozguler-techexplorer.openai.azure.com'
